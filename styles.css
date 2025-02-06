@@ -75,27 +75,27 @@ section {
 }
 
 #service1 {
-  background-image: url("images/service1.jpg");
+  background-image: url("./img/hzm1.png");
 }
 
 #service2 {
-  background-image: url("images/service2.jpg");
+  background-image: url("./img/hzm2.png");
 }
 
 #service3 {
-  background-image: url("images/service3.jpg");
+  background-image: url("./img/hzm3.png");
 }
 
 #service4 {
-  background-image: url("images/service4.jpg");
+  background-image: url("./img/hzm4.png");
 }
 
 #service5 {
-  background-image: url("images/service5.jpg");
+  background-image: url("./img/hzm5.png");
 }
 
 #service6 {
-  background-image: url("images/service6.jpg");
+  background-image: url("./img/hzm6.png");
 }
 
 .social-icons {
