@@ -28,6 +28,13 @@ header h1 {
   text-align: left;
 }
 
+header h1 a {
+  color: rgb(0, 0, 0); /* Change the color as needed */
+  text-decoration: none;
+  font-size: 2em; /* Adjust the font size as needed */
+  font-weight: bold; /* Adjust the font weight as needed */
+}
+
 nav ul {
   list-style: none;
   padding: 0;
@@ -39,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
 }
 
@@ -116,7 +123,8 @@ section {
 }
 
 footer {
-  background-color: #333;
+  height: 90px;
+  background-color: #6d6d6dba;
   color: white;
   text-align: center;
   padding: 1em 0;
