@@ -15,17 +15,26 @@ header {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 header .logo {
   height: 100px;
   margin: 2em;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 header h1 {
   margin: 0;
   flex-grow: 1;
   text-align: center;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 header h1 a {
@@ -41,18 +50,27 @@ header h1 a {
   color: transparent;
   background-clip: text;
   text-align: end;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .head-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .head-flex .flex1 {
   display: flex;
   flex-direction: row;
   align-items: center;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .top-nav {
@@ -60,10 +78,16 @@ header h1 a {
   flex-direction: row;
   align-items: center;
   text-shadow: 10px 0 25px rgb(0, 17, 255);
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .top-nav a {
   font-size: 20px;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 nav ul {
@@ -71,6 +95,9 @@ nav ul {
   padding: 0;
   align-items: center;
   justify-content: center;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 nav ul li {
@@ -85,16 +112,25 @@ nav ul li a {
 
 main {
   padding: 2em;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 section {
   margin-bottom: 2em;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .services-container {
   display: flex;
   flex-wrap: wrap;
   gap: 1em;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .service-box {
@@ -106,11 +142,17 @@ section {
   text-align: center;
   background-size: auto;
   background-position: center;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .service-box h3 {
   background-color: rgba(0, 0, 0, 0.5);
   padding: 0.5em;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 #service1 {
@@ -143,12 +185,18 @@ section {
   color: #ddd;
   gap: 5em;
   justify-content: right;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .social-media a {
   color: #ffffff;
   font-size: 2em;
   text-decoration: none;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .social-media:hover {
@@ -170,20 +218,32 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .footer-left {
   display: flex;
   align-items: center;
   margin-left: 5em;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .footer-right {
   text-align: right;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .foot-right-text {
   margin-right: 5em;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .about-text {
@@ -193,23 +253,32 @@ footer {
   border-radius: 10%;
   text-align: center;
   text-shadow: 10px 0 50px rgba(35, 134, 118, 0.904);
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .govdeler {
   display: flex;
   flex-direction: column;
   margin: 5em;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .slider {
   display: flex;
   flex-direction: row;
-  align-content: center;
+  align-content: start;
   width: auto;
   gap: 1em;
   height: auto;
   overflow: visible;
   object-fit: cover;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .slider img {
@@ -218,6 +287,9 @@ footer {
   object-fit: contain;
   justify-content: center;
   padding: 1em;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-template-rows: repeat(2, 100px);
 }
 
 .container {
