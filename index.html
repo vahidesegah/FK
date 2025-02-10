@@ -10,20 +10,35 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
     />
+
   </head>
   <body>
     <header>
-      <h1>FK Teknik Klima Sistemleri</h1>
+      <div class="head-flex">
+      <div>
+      <img src="./img/fk.png" alt="Logo" class="logo" />
+      <h1><a href="#home">FK Teknik Klima Sistemleri</a></h1>
+      </div>
+      <div>
       <nav>
         <ul>
-          <li><a href="#services">Hizmetlerimiz</a></li>
-          <li><a href="#contact">İletişim</a></li>
+          <nav>
+            <ul class="top-nav">
+              <li><a href="#home">Anasayfa</a></li>
+              <li><a href="#about">Hakkında</a></li>
+              <li><a href="#services">Hizmetlerimiz</a></li>
+              <li><a href="#contact">Bize Ulaşın</a></li>
+            </ul>
+          </nav>
         </ul>
       </nav>
+      </div>
+      </div>
     </header>
 
     <main>
       <section id="services">
+        <h2>Hizmetlerimiz</h2>
         <div class="services-container">
           <div class="service-box" id="service1">
             <h3>Klima Bakım Ve Onarım</h3>
@@ -46,28 +61,20 @@
         </div>
       </section>
 
-      <section id="contact">
-        <h2>Sosyal Medya Hesaplarımız</h2>
-        <p>Bize sosyal medya hesaplarımızdan ulaşabilirsiniz.</p>
-        <div class="social-icons">
-          <a
-            href="https://www.instagram.com/yourprofile"
-            target="_blank"
-            class="social-icon"
-            ><i class="fab fa-instagram"></i
-          ></a>
-          <a
-            href="https://wa.me/yourphonenumber"
-            target="_blank"
-            class="social-icon"
-            ><i class="fab fa-whatsapp"></i
-          ></a>
-        </div>
-      </section>
+      
     </main>
 
     <footer>
-      <p>&copy; FK Teknik Klima Sistemleri</p>
+      <div class="footer-left">
+        
+        <div class="social-media">
+          <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="foot-right-text">
+      <p>&copy; 2023 FK Teknik Klima Sistemleri</p> </div>
     </footer>
   </body>
 </html>
