@@ -59,6 +59,7 @@ header h1 a {
   display: flex;
   flex-direction: row;
   align-items: center;
+  text-shadow: 10px 0 25px rgb(0, 17, 255);
 }
 
 .top-nav a {
@@ -137,8 +138,10 @@ section {
 }
 
 .footer-left .social-media {
+  display: flex;
+  flex-direction: row;
   color: #ddd;
-  gap: 1em;
+  gap: 5em;
   justify-content: right;
 }
 
@@ -185,8 +188,9 @@ footer {
 
 .about-text {
   display: block;
-  font-size: large;
+  font-size: x-large;
   padding: 0em, 3em, 3em, 3em;
   border-radius: 10%;
   text-align: center;
+  text-shadow: 10px 0 50px rgba(35, 134, 118, 0.904);
 }
