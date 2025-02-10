@@ -1,6 +1,5 @@
 body {
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -11,65 +10,15 @@ header {
   color: rgb(16, 4, 4);
   padding: 1em 0;
   text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-
-header .logo {
-  height: 100px;
-  margin: 2em;
 }
 
 header h1 {
   margin: 0;
-  flex-grow: 1;
-  text-align: center;
-}
-
-header h1 a {
-  font-size: 50px;
-  background-image: repeating-conic-gradient(
-    #3d18a3 0%,
-    #3d00e6 10%,
-    #250b06 10%,
-    #000000 20%,
-    #00c2cb 20%,
-    #00c2cb 30%
-  );
-  color: transparent;
-  background-clip: text;
-  text-align: end;
-}
-
-.head-flex {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.head-flex .flex1 {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.top-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.top-nav a {
-  font-size: 20px;
 }
 
 nav ul {
   list-style: none;
   padding: 0;
-  align-items: center;
-  justify-content: center;
 }
 
 nav ul li {
@@ -136,10 +85,11 @@ section {
   background-image: url("./img/hzm6.png");
 }
 
-.footer-left .social-media {
-  color: #ddd;
+.social-icons {
+  display: flex;
   gap: 1em;
-  justify-content: right;
+  justify-content: center;
+  margin-top: 1em;
 }
 
 .social-media a {
@@ -153,36 +103,11 @@ section {
 }
 
 footer {
-  background-image: repeating-conic-gradient(
-    #391798 0%,
-    #9af4b1 10%,
-    #000000 10%,
-    #000000 20%,
-    #00adcb 20%,
-    #92bdbf 30%
-  );
-  color: rgb(255, 255, 255);
-  padding: 1em 0;
+  background-color: #333;
+  color: white;
   text-align: center;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.footer-left {
-  display: flex;
-  align-items: center;
-  margin-left: 5em;
-}
-
-.footer-right {
-  text-align: right;
-}
-
-.foot-right-text {
-  margin-right: 5em;
-}
-
-.about-text {
-  display: flexbox;
+  padding: 1em 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
 }
