@@ -47,7 +47,7 @@ header h1 {
 }
 
 header h1 a {
-  font-size: 50px;
+  font-size: 40px;
   background-image: repeating-conic-gradient(
     #3d18a3 0%,
     #3d00e6 10%,
@@ -158,14 +158,15 @@ section {
 .footer-left .social-media {
   display: flex;
   flex-direction: row;
+ 
   color: #ddd;
-  gap: 5em;
+  gap: 2em;
   justify-content: right;
 }
 
 .social-media a {
   color: #ffffff;
-  font-size: 2em;
+  font-size: 1em;
   text-decoration: none;
 }
 
@@ -175,12 +176,12 @@ section {
 
 footer {
   background-image: repeating-conic-gradient(
-    #391798 0%,
-    #9af4b1 10%,
+    #000000 0%,
+    #000000 10%,
     #000000 10%,
     #000000 20%,
-    #00adcb 20%,
-    #92bdbf 30%
+    #000000 20%,
+    #000000 30%
   );
   color: rgb(255, 255, 255);
   padding: 1em 0;
